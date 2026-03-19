@@ -1,0 +1,39 @@
+﻿Build started 09.03.2026 19:36:12.
+     1>Project "C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\BuildFiles\Windows\x86\StaticDebug\ /LIBPATH:C:\UNN\OS\Eco.Framework_20250429\Eco.InterfaceBus1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\UNN\OS\Eco.Framework_20250429\Eco.System1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\UNN\OS\Eco.Framework_20250429\Eco.MemoryManager1\BuildFiles\Windows\x86\StaticRelease\ /LIBPATH:C:\UNN\OS\Eco.Framework_20250429\Eco.FileSystemManagement1\BuildFiles\Windows\x86\StaticRelease\ 1F5DF16EE1BF43B999A434ED38FE8F3A.lib 00000000000000000000000042757331.lib 0000000000000000000000004D656D31.lib 00000000000000000000000046534D31.lib 00000000000000000000000053595332.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.lib" /MACHINE:X86 Eco.Lab1UnitTest\StaticDebug\EcoLab1.obj
+         C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\BuildFiles\Windows\x86\StaticDebug\1F5DF16EE1BF43B999A434ED38FE8F3A.lib
+     1>EcoLab1.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         00000000000000000000000053595332.lib(CEcoSystem1EntryPoint.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>EcoLab1.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>LIBCMTD.lib(crt0init.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>00000000000000000000000053595332.lib(CEcoSystem1EntryPoint.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000053595332.lib(CEcoSystem1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000042757331.lib(CEcoInterfaceBus1Factory.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000042757331.lib(CEcoInterfaceBus1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>0000000000000000000000004D656D31.lib(CEcoMemoryManager1Factory.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>0000000000000000000000004D656D31.lib(CEcoMemoryManager1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>0000000000000000000000004D656D31.lib(CEcoMemoryAllocator1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000046534D31.lib(CEcoFileSystemManagement1Factory.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000046534D31.lib(CEcoFileSystemManagement1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000046534D31.lib(CEcoFileManager1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000046534D31.lib(CEcoDirectoryManager1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000046534D31.lib(CEcoFile1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>00000000000000000000000046534D31.lib(CEcoDirectoryInfo1.obj) : warning LNK4204: 'C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Eco.Lab1UnitTest.vcxproj -> C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.exe;#1" /manifest Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.unsuccessfulbuild".
+         Touching "Eco.Lab1UnitTest\StaticDebug\Eco.Lab1UnitTest.lastbuildstate".
+     1>Done Building Project "C:\UNN\OS\Eco.Lab1_20250409\Eco.Lab1\AssemblyFiles\Windows\VisualStudio_10\Eco.Lab1UnitTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.24
