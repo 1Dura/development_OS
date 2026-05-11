@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9397B5CF-971D-4BFA-9367-B0DFF055AC12}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E482372-2C63-41D6-B10B-69D5CD49CB93}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\HeaderFiles\CEcoLab2.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\HeaderFiles\CEcoLab2Factory.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\ErrEcoLab2.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IdEcoCalculatorA.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IdEcoCalculatorB.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IdEcoCalculatorD.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IdEcoCalculatorE.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IdEcoLab1.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IdEcoLab2.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IEcoCalculatorX.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IEcoCalculatorY.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\..\..\SharedFiles\IEcoLab1.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SourceFiles\CEcoLab2.c"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="..\..\..\SourceFiles\CEcoLab2Factory.c"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+</Project>
